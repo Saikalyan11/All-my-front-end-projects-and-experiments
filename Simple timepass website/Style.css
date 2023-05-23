@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,200&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: grid;
+    grid-gap: 0px;
+    grid-template-areas: 
+    'navbar navbar navbar navbar'
+    'home home home home';
+}
+
+body{
+    height: 100%;
+    margin: 0;
+
+}
+
+ #navbar{
+    grid-area: navbar;
+    height: 91px;
+    position: sticky;
+    /* border: 2px solid black; */
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(auto-fit,minmax(300px,400px));
+}
+#navbar::before{
+    content: "";
+    position: absolute;
+    background: #3f1911;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.6;
+    
+    
+}
+#navbar ul li{
+    font-family: 'Dancing Script', cursive;
+    list-style: none;
+    display: inline-block;
+    padding: 34px;
+    font-size: 20px;
+    
+}
+
+
+#navbar ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 27px;
+}
+
+#navbar ul li a:hover{
+    background-color: white;
+    padding: 6px;
+    border-radius: 10px;
+}
+#navbar .btn{
+    font-family: 'Dancing Script', cursive;
+    font-size: 17px;
+    font-weight: bold;
+    border-radius: 14px;
+    padding: 10px;
+    margin-left: 90px;
+    width: 168px;
+    height: 50px;
+    border: 2px solid blue;
+    background-color: #a55b4c54;
+
+
+}
+#navbar .btn:hover{
+    background-color: antiquewhite;
+    font-size: 20px;
+}
+
+
+
+#home{
+    grid-area: home;
+    font-family: 'Dancing Script', cursive;
+    border-radius: 4px;
+    
+}
+
+#home::before{
+    content:"";
+    position: absolute;
+    background: url('Home.jpg');
+    height:100%;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+#home .heading{
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 0px 193px;
+    padding-top: 290px;
+    font-size: 92px;
+    position: relative;
+    color: black; 
+    text-shadow: 2px 4px aliceblue;
+}
+#home p{
+    font-family: 'Pacifico', cursive;
+    color: rgb(255, 255, 255);
+    padding: 4px 401px;
+    font-size: 40px;
+    position: relative;
+}
+
+
+

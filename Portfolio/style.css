@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,200;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    background-color: #6b6134;
+    color: white;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+.Container{
+    display: flex;
+    position: sticky;
+    top: 0;
+    opacity: 0.99;
+    border: 2px solid black;
+}
+.Container .logo{
+    width: 65px;
+    margin: 10px 74px;
+}
+#navbar{
+    margin: 20px auto;
+}
+#navbar ul li{
+    display: inline;
+    font-size: 37px;
+    font-family: 'Caveat', cursive;
+    padding: 19px;
+}
+
+#navbar ul li a:hover{
+    color: black;
+}
+
+hr{
+    height: 1px;
+    background-color: #000000;
+    border: none;
+}
+
+
+.h3{
+    font-size: 40px;
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 15px 400px;
+   
+}
+.sub-heading{
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 2px 471px;
+    font-size: 34px;
+    color: #000000;
+}
+.para{
+    font-family: 'Caveat', cursive;
+    font-size: 23px;
+    margin: 5px 591px;
+}
+.image{
+    width: 1072px;
+    display: flex;
+    margin: 10px auto;
+    
+}
+
+
+
+.title{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 38px;
+    display: flex;
+    justify-content: center;
+    margin: 30px auto;
+}
+
+.group{
+    width: 433px;
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 8px;
+    margin: 15px 37px;
+
+}
+.h3-center{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    color: black;
+    text-shadow: 2px 2px grey;
+}
+.para2{
+        font-family: 'Caveat', cursive;
+        font-size: 25px;
+        
+        
+}
+.h-center{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 35px;
+    margin: 27px 0px;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    color: black;
+    text-shadow: 2px 2px grey;
+
+}
+
+#works .A1{
+    width: 444px;
+    margin: 28px 40px;
+}
+
+
+#works .A2{
+    width: 444px;
+    margin: 64px 40px;
+}
